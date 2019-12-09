@@ -105,3 +105,9 @@ form{
 .carousel-control-prev {
   display: block;
 }
+@media (min-width: 400px) {
+    .carousel-caption {
+      display: inline-block;
+      width: 45%;
+    }
+}
