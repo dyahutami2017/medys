@@ -10,11 +10,11 @@ html{
    
 }
 
-h3{    
+/* h3{    
     margin-top: 100px;
     margin-left: 100px; 
     margin-bottom: 20px;   
-}
+} */
 button{
     
     margin-left:-70px;
@@ -31,20 +31,20 @@ h1{
 .btn{
     margin: 20px;
 }
-.caption{
+/* .caption{
     margin-left: 100px;
     font-family: 'Montserrat'
-}
+} */
 .nav-link{
     color: white;
 }
-.icon_materi img{
+/* .icon_materi img{
     margin-left:100px;
     margin-right: 10px;
     width: 25px;
     margin-bottom: 20px;
     margin-top: 20px;
-}
+} */
 strong{
     font-family: 'Montserrat';
 }
