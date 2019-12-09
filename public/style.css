@@ -73,9 +73,9 @@ a {
   text-decoration: underline;
 }
 
-p {
+/* p {
   margin: 0.83rem 0;
-}
+} */
 
 @keyframes slideUp {
   0% {

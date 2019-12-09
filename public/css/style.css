@@ -21,10 +21,10 @@ button{
     float:right;
 }
 
-.carousel-caption{
+/* .carousel-caption{
     position: absolute;
     margin-bottom: 150px;
-}
+} */
 h1{
     font-size: 70px;
 }
@@ -105,9 +105,9 @@ form{
 .carousel-control-prev {
   display: block;
 }
-@media (min-width: 400px) {
-    .carousel-caption {
-      display: inline-block;
-      width: 45%;
+@media (max-width: 400px) {
+    .carousel-caption.d-none.d-md-block {
+      display: block !important;
+      height: 60%;
     }
 }
