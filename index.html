@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top" width="100%">
     <a class="navbar-brand" href="#">
       <img src="public/images/logo Dyselxia.png" height="40" alt="">
     </a>
@@ -71,7 +71,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="public/images/header - Copy.jpg" class="d-block w-100" alt="slider1">
+            <img src="public/images/header - Copy.jpg" class="d-block w-100 img-fluid" alt="slider1">
             <div class="carousel-caption d-none d-md-block">
               <h1>MEDYS</h1>
               <p>Belajar dan Bermain Bersama</p>
@@ -81,14 +81,14 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="public/images/slider2.jpg" class="d-block w-100" alt="slider2">
+            <img src="public/images/slider2.jpg" class="d-block w-100 img-fluid" alt="slider2">
             <div class="carousel-caption d-none d-md-block">
               <h1>MEDYS</h1>
               <p>Media pembelajaran yang menyenangkan</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="public/images/slider1.jpg" class="d-block w-100" alt="slider1">
+            <img src="public/images/slider1.jpg" class="d-block w-100 img-fluid" alt="slider1">
             <div class="carousel-caption d-none d-md-block">
               <h1>KAMI BISA</h1>
               <p>KAMI SAMA KAMI BISA</p>
@@ -110,7 +110,7 @@
   <div id="tentang">
     <div class="row" style="width:100%">
       <div class="col-md-6">
-        <img src="./public/images/logo Dyselxia cc.png" alt="" style="height: 400px; margin: 100px;">
+        <img src="./public/images/logo Dyselxia cc.png" alt="" class="img-fluid " style="max-width:100%; height: auto; margin: 100px;">
       </div>
       <div class="col-md-6">
         <h3>Medys</h3>
@@ -169,7 +169,7 @@
     </div>
   </div>
 
-  <div id="quiz">
+  <!-- <div id="quiz">
     <div class="container bg-light mt-4">
       <h2 class="text-center">Quiz</h2>
       <div class="card-deck justify-content-center">
@@ -231,6 +231,62 @@
 
 
     </div>
+  </div> -->
+
+  <div class="container bg-light mt-4">
+    <h2 class="text-center">Quiz</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="sub card text-white mt-2">
+          <div class="card-body bg-success text-center">
+            <h5 class="card-title mt-5">Susun Huruf</h5>
+            <a href=""><img src="public/images/Group 1.png" alt="quiz1" class="mx-auto d-block m-5"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="sub card text-white mt-2">
+          <div class="card-body bg-success text-center">
+            <h5 class="card-title mt-5">Penjumlahan</h5>
+            <a href=""><img src="public/images/Group 1.png" alt="quiz2" class="mx-auto d-block m-5"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+      <div class="sub card text-white mt-2">
+        <div class="card-body bg-success text-center">
+          <h5 class="card-title mt-5">Pengurangan</h5>
+          <a href=""><img src="public/images/Group 1.png" alt="quiz3" class="mx-auto d-block m-5"></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+    <div class="sub card text-white mt-2">
+        <div class="card-body bg-success text-center">
+          <h5 class="card-title mt-5">Pembagian</h5>
+          <a href=""><img src="public/images/Group 1.png" alt="quiz4" class="mx-auto d-block m-5"></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="sub card text-white mt-2">
+        <div class="card-body bg-success text-center">
+          <h5 class="card-title mt-5">Perkalian</h5>
+          <a href=""><img src="public/images/Group 1.png" alt="quiz5" class="mx-auto d-block m-5"></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class=" sub card text-white mt-2">
+        <div class="card-body bg-success text-center">
+          <h5 class="card-title mt-5">Susun Kata</h5>
+          <a href=""><img src="public/images/Group 1.png" alt="quiz6" class="mx-auto d-block m-5"></a>
+        </div>
+      </div>
+  </div>
+
+  </div>
+
   </div>
   <div class="card-footer bg-dark text-white text-center mt-5">
     <h2 class="mb-5">Contact Us</h2>
@@ -259,6 +315,16 @@
     </div>
   </div>
   </div>
+
+  <script>
+    $(document).ready(function() {
+      $('.carousel-item .carousel-caption').css('zoom', $('.carousel').width()/1250);
+    });
+  
+    $(window).resize(function() {
+      $('.carousel-item .carousel-caption').css('zoom', $('.carousel').width()/1250);
+    });
+  </script>
 </body>
 
 </html>
